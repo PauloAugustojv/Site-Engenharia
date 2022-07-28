@@ -1,0 +1,181 @@
+
+.espaco{
+    background: rgba(62,107,138,255);
+    padding:22px;  
+}
+
+.icones{
+    color:white;
+}
+.icones__item{
+    color: #F0FFFF; 
+    text-decoration:none;
+    font-size:16.5px;
+    text-align: center;
+    padding-right: 15px;
+    font-family: 'Work Sans', sans-serif;
+    
+}
+#itemfone{
+    padding-left: 15px;
+    padding-right: 15px
+}
+#iteemail{
+    padding-left: 15px;
+    padding-right: 15px
+
+}
+#margem{
+    padding-left: 1236px;
+}
+
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    height: 125px;
+}
+.logo{
+    max-width: 100%;
+    max-height: 100%;
+    padding-left: 27px;
+}
+
+.menu__lista{
+    display: flex;
+
+}
+.menu__item{
+    list-style-type: none;
+}
+.menu__link{
+    margin-right: 5rem;
+    text-decoration: none;
+    color: rgba(62,107,138,255);
+    font-family: 'Lato', sans-serif;
+    font-size: 19px;
+    font-weight:bold;
+    
+}
+.banner {
+    position: relative;
+}
+
+.banner__imagem {
+    background: url('../Engenharia/imagens/construction-silhouette.jpg') no-repeat center / cover;
+    height: calc(82vh - 80px);
+    width: 100%;
+}
+.banner__titulo{
+    color: #fdfdfd;
+    font-size: 2.5rem;
+    position: absolute;
+    left: 1%;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
+    top: 30%;
+    width: 25%;
+    font-family: 'Lato', sans-serif;
+    margin-left: 20px;
+}
+.banner__subtitulo{
+    color: #fdfdfd;
+    font-size: 2rem;
+    position: absolute;
+    left: 1%;
+    top: 40%;
+    width: 15%;
+    font-family: 'Lato', sans-serif;
+    margin-left: 20px;
+}
+
+.titulo{
+    text-align: center;
+    margin: 120px;
+    color: #0b4ea2;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px
+}
+.container{
+    display: flex;
+    justify-content:space-around;  
+    align-self: center;
+}
+.item_titulo{
+    font-family: 'Poppins', sans-serif;
+}
+.item{
+    width: 18%;
+    text-align:center;
+}
+.imagem__item{
+    width:25%;
+    margin-bottom:20px;
+ 
+}
+.item__sobre{
+    color:#777777;
+    font-family: 'Work Sans', sans-serif;
+    line-height: 30px;
+
+}
+
+.conteudosobre{
+    background:rgba(62,107,138,255);
+    height: 2000px;
+}
+
+.container_sobre{
+    display: inline-flex;
+    
+  
+}
+.sobrefoto{
+    border-radius: 130px;
+    margin-left: 400px;
+    margin-top: 200px;;
+}
+.divtitulosobre{
+    width: 400px;
+    margin-top: 200px;
+    
+}
+.sobre_titulo{
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    margin-left: 100px;
+    font-weight:bold;
+}
+
+.sobre__texto{
+    margin-left: 100px;
+    color:#777777;
+    font-family: 'Work Sans', sans-serif;
+    line-height: 30px;
+    width: 500px;
+}
+.carrossel{
+    display: grid;
+    place-items: center;
+}
+#items-wrapper{
+    width: 60vw; 
+    
+}
+.item_carrossel{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+#items{
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+       
+}
+.item_carrossel{    
+    flex: none;
+    scroll-snap-align: start;
+}
+
+
